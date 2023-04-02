@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+.Titulos{
+    font-family: 'Pacifico', cursive;
+}
+
+.subTitulos{
+    font-family: 'K2D', sans-serif;
+}
+
+.navColor{
+    background-color: #24dbd8;
+}
+.consulta{
+    background-color: #24dbd8;   
+}
+.title{
+    font-family: "Dancing Script", cursive;
+    color: rgba(8, 0, 255, 0.789);
+}
+
+.container-fluid{
+    background-color: #24dbd8;
+}
+
+.consulta{
+    background-color: #ffffff;  
+}
+
+/*footer*/
+.footer{
+    background-color: #1d293f;
+  }
+  .nav_links{
+    color: #fff;
+    text-decoration: none;
+}
+  .footer_title{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .footer_title, .footer_newsletter{
+    color: #fff
+  }
+  
+  .footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+  }
+  
+  .nav--footer{
+    padding-bottom: 20px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: row;
+    height: 100%;
+  }
+  
+  .nav_link--footer{
+    display: flex;
+    margin: 0;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+
+.nav_link{
+    color: #fff;
+}  
+  .footer_inputs{
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .footer_input{
+    background-color: #fff;
+    height: 50px;
+    display: block;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    margin-right: 16px;
+  }
+  
+  .footer_submit{
+    margin-left: auto;
+    display: inline-block;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #2091F9;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 6px;
+  }
+  
+  .footer_copy{
+    --padding-container:30px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer_copyright{
+    font-weight: 300;
+  }
+  
+  .footer_icons{
+    margin-bottom: 10px;
+  }
+  
+  .footer_img{
+    width: 30px;
+  }
+  /*cerrar sesion*/
+
+  .cerrar{
+    text-align: right;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .logout-link {
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+  }
+  
+ 
